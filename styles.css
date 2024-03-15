@@ -1,0 +1,102 @@
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* The Containers for the Sections */
+
+.container {
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.container h2 {
+  margin: 5px 10px;
+}
+
+/* The Boxes for the different colors */
+.color-box {
+  box-sizing: content-box; 
+  width: 200px;
+  height: 100px;
+  margin: 5px;
+  border: 1px solid black;
+  font-weight: bold; 
+  text-align: center;
+  display: inline-block;
+}
+
+.taupe {
+  background-color: #BAA698;
+}
+
+.brown {
+  background-color: #9B6E6E;
+  color: white;
+}
+
+.moss {
+  background-color: #688676;
+  color: white;
+}
+
+.sand {
+  background-color: #E8D5C4;
+}
+
+.bark {
+  background-color: #825858;
+  color: white;
+}
+
+/* --- Font Showcase --- */
+
+.font-showcase {
+  width: 45%;
+  min-width: 300px;
+  height: 150px;
+  margin: 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.lora {
+  font-family: "Lora", serif;
+}
+
+/* --- Style-Showcase ---*/
+
+.style-showcase {
+  margin: 20px;
+}
+
+.h1 .heading {
+  font-family: "Lora", serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.h2 .heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.p .heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
